@@ -16,6 +16,6 @@
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 git clone https://github.com/tty228/luci-app-serverchan.git package/lean/luci-app-serverchan
-#git clone https://github.com/fw876/helloworld.git package/lean/luci-app-ssr-plus
+git clone https://github.com/fw876/helloworld.git package/lean/luci-app-ssr-plus
 git clone https://github.com/lwz322/k3screenctrl_build.git
 git clone https://github.com/lwz322/luci-app-k3screenctrl.git
