@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: x64 OpenWrt
+name: x64.with.Docker
 
 on:
   repository_dispatch:
