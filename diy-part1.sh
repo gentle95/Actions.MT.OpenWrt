@@ -17,4 +17,4 @@
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 git clone https://github.com/tty228/luci-app-serverchan.git package/lean/luci-app-serverchan
 git clone https://github.com/fw876/helloworld.git package/lean/luci-app-ssr-plus
-git clone https://github.com/lisaac/luci-app-dockerman.git package/lean/luci-app-dockerman
+#git clone https://github.com/lisaac/luci-app-dockerman.git package/lean/luci-app-dockerman
