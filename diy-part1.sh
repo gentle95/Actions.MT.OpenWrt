@@ -13,6 +13,7 @@
 # Uncomment a feed source
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 echo "src-git helloworld https://github.com/fw876/helloworld.git" >> "feeds.conf.default"
+echo "src-git openclash https://github.com/vernesong/OpenClash.git" >> "feeds.conf.default"
 
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
@@ -20,4 +21,4 @@ echo "src-git helloworld https://github.com/fw876/helloworld.git" >> "feeds.conf
 #rm -rf package/lean/luci-app-pushbot
 #git clone https://github.com/zzsj0928/luci-app-pushbot.git package/lean/luci-app-pushbot
 #git clone https://github.com/fw876/helloworld.git package/lean/luci-app-ssr-plus
-git clone https://github.com/vernesong/OpenClash.git package/lean/luci-app-openclash
+#git clone https://github.com/vernesong/OpenClash.git package/lean/luci-app-openclash
