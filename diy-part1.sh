@@ -14,6 +14,7 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 echo "src-git helloworld https://github.com/fw876/helloworld.git" >> "feeds.conf.default"
 echo "src-git openclash https://github.com/vernesong/OpenClash.git" >> "feeds.conf.default"
+echo "src-git luci-theme-neobird https://github.com/thinktip/luci-theme-neobird.git" >> "feeds.conf.default"
 
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
