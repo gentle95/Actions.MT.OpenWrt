@@ -45,7 +45,7 @@ jobs:
       env:
         DEBIAN_FRONTEND: noninteractive
       run: |
-        sudo rm -rf /etc/apt/sources.list.d/* /usr/share/dotnet /usr/local/lib/android /opt/ghc
+#        sudo rm -rf /etc/apt/sources.list.d/* /usr/share/dotnet /usr/local/lib/android /opt/ghc
         sudo -E apt -qq update -y
         sudo -E apt -qq full-upgrade -y
         sudo -E apt -qq install -y $(curl -fsSL https://raw.githubusercontent.com/gentle95/Actions.MT.OpenWrt/main/ubuntu)
