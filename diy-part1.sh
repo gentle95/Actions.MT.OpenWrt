@@ -20,4 +20,4 @@ echo "src-git openclash https://github.com/vernesong/OpenClash.git" >> "feeds.co
 #git clone https://github.com/tty228/luci-app-serverchan.git package/lean/luci-app-serverchan
 #rm -rf package/lean/luci-app-pushbot
 #git clone https://github.com/zzsj0928/luci-app-pushbot.git package/lean/luci-app-pushbot
-git clone https://github.com/thinktip/luci-theme-neobird.git package/lean/luci-theme-neobird
+#git clone https://github.com/thinktip/luci-theme-neobird.git package/lean/luci-theme-neobird
