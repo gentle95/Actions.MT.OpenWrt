@@ -17,7 +17,7 @@
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 #git clone https://github.com/tty228/luci-app-serverchan.git package/lean/luci-app-serverchan
 #rm -rf package/lean/k3screenctrl
-#git clone https://github.com/lwz322/k3screenctrl_build.git package/lean/k3screenctrl_build
-#git clone https://github.com/lwz322/luci-app-k3screenctrl.git package/lean/luci-app-k3screenctrl
+git clone https://github.com/lwz322/k3screenctrl_build.git package/lean/k3screenctrl_build
+git clone https://github.com/lwz322/luci-app-k3screenctrl.git package/lean/luci-app-k3screenctrl
 echo "src-git helloworld https://github.com/fw876/helloworld.git" >> "feeds.conf.default"
 echo "src-git openclash https://github.com/vernesong/OpenClash.git" >> "feeds.conf.default"
