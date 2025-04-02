@@ -1,0 +1,6 @@
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 显示当前时间
+        run: date
